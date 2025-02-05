@@ -1,6 +1,6 @@
 # Contrastive Language Image Pre-training
 
-Implementation of the papers "Learning Transferable Visual Models From Natural Language Supervision" (CLIP) and "Image Segmentation Using Text and Image Prompts" (CLIPSeg). 
+Collection of Research Paper implementation of various Vision Language models.
 
 Overview
 
