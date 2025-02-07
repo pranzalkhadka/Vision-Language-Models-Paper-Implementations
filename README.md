@@ -26,10 +26,10 @@ Approach
 
 ### CLIP: Image-Text Matching
 
-| Sample Image            | Descriptions                                                                                                   | Best Match                    |
+| Sample Image            | Descriptions                                                                                                   | Predicted Match                    |
 |-------------------------|---------------------------------------------------------------------------------------------------------------|-------------------------------|
-| ![image](Images/CLIP/1.png) | "A photo of an airplane", "A photo of an automobile", "A photo of a bird", "A photo of a cat", <br> "A photo of a deer", "A photo of a dog", "A photo of a frog", "A photo of a horse", "A photo of a ship", "A photo of a truck" | "A photo of a automobile" |
-| ![image](Images/CLIP/2.png) | "A photo of an airplane", "A photo of an automobile", "A photo of a bird", "A photo of a cat", <br> "A photo of a deer", "A photo of a dog", "A photo of a frog", "A photo of a horse", "A photo of a ship", "A photo of a truck" |"A photo of a frog"         |
+| ![image](Images/CLIP/1.png) | "A dog playing in the park" <br> "A train on a track" <br> "A person riding a skateboard" <br> "A close-up of a flower in bloom"|"A train on a track"         |
+| ![image](Images/CLIP/2.png) | "A dog eating food"<br> "A train on a track" <br> "A kid playing in the park" <br> "A close-up of a flower in bloom" |"A kid playing in the park"         |
 
 
 ### CLIPSeg: Image Segmentation
