@@ -4,21 +4,19 @@ Collection of Research Paper implementation of various Vision Language models.
 
 Overview
 
-    CLIP: A foundational model developed by OpenAI for connecting images and text trained on large amount of image-text pairs. It can recognize various objects based on natural language prompts.
+1. CLIP:- A foundational model developed by OpenAI for connecting images and text trained on large amount of image-text pairs. It can recognize various objects based on natural language prompts.
 
-    CLIPSeg: An adaptation of CLIP for segmentation tasks enabling pixel level segmentation based on text prompts.
+2. CLIPSeg:- An adaptation of CLIP for segmentation tasks enabling pixel level segmentation based on text prompts.
 
 Approach
 
-    CLIP: 
-        Pre-trained ResNet18 as Image Encoder and DistilBert as Text Encoder
+1. CLIP: 
+        Pre-trained Vision Transformer as Image Encoder and DistilBert as Text Encoder
 
-        Trained on CIFAR-10 dataset for zero shot classification task
 
-    CLIPSeg: 
+2. CLIPSeg: 
         Custom Decoder on top of pre-trained CLIP
 
-        Trained on Refcoco dataset for Referring Image segmentation task
 
 
 
